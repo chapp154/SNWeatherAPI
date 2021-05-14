@@ -1,0 +1,19 @@
+{
+  "name": "snweatherapi",
+  "version": "1.0.0",
+  "description": "SN Weather Data API",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chapp154/SNWeatherAPI.git"
+  },
+  "author": "Radim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chapp154/SNWeatherAPI/issues"
+  },
+  "homepage": "https://github.com/chapp154/SNWeatherAPI#readme"
+}
