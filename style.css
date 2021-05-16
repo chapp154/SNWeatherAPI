@@ -1,19 +1,50 @@
 main {
-	display: grid;
-	grid-template-columns: 100px auto 100px;
-	grid-template-rows: auto;
-	justify-items: center;
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: auto;
+    justify-items: center;
 }
 
 .data {
-	grid-column: 2 / 3;
-	grid-row: 1 / 2;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.data label {
+	font-size: 14px;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.data input {
+	padding: 3px 0px;
+    margin-top: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0 128 0);
+    font-size: 20px;
+}
+
 .data button {
-	margin-top: 40px;
+    padding: 5px 10px;
+    font-size: 12px;
+	margin-top: 30px;
+    background: rgb(0 0 0 / 0%);
+    border-radius: 3px;
+    border: 1px solid rgb(0 128 0);
+    color: rgb(0 100 0);
+}
+
+.data p {
+	color: rgb(255 255 255);
+    padding: 4px 10px;
+    border-radius: 3px;
+	margin-top: 60px;
+
 }
